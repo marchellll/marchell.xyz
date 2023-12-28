@@ -31,6 +31,10 @@ pnpm run dev
 
 ## Building
 
+```sh
+pnpm run build && pnpm run preview
+```
+
 ## Need to mention
 
 I followed this post to create thi web: https://joyofcode.xyz/sveltekit-markdown-blog
