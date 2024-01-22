@@ -1,3 +1,8 @@
+---
+title: Marchell Imanuel
+published: true
+---
+
 # 👋 Hi, I'am **Marchell** !
 
 ## 🧑🏽‍💻 About Me
@@ -5,14 +10,14 @@
 - 🩻 I am a Software Engineer focusing on the backend
 - 🛼 In my role, I design and implement server-side logic, define and maintain databases, and ensure high performance and responsiveness to requests from the front-end.
 - 📫 How to reach me:
-  - 📧 [imanuel.marchell@gmail.com](mailto:imanuel.marchell@gmail.com)
   - 🟢 [WhatsApp](https://wa.me/6285781147378)
+  - 📧 [imanuel.marchell@gmail.com](mailto:imanuel.marchell@gmail.com)
   - 🔵 [Telegram](https://t.me/marchellll)
   - 🔗 [LinkedIn](https://www.linkedin.com/in/marchellll/)
 
 ## 📚 My Skills
 
-## 🔙 Backend
+### 🔙 Backend
 
 As a backend developer, I am familiar with the following technologies:
 
@@ -21,7 +26,7 @@ As a backend developer, I am familiar with the following technologies:
 - Kubernetes, Docker, Google Cloud Platform, AWS
 - Grafana, Datadog, New Relic
 
-## 🖥 Frontend
+### 🖥 Frontend
 
 As a curious person, I am also familiar with the following technologies:
 
