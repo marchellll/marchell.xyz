@@ -1,5 +1,7 @@
 import { error } from '@sveltejs/kit'
 
+export const prerender = 'auto'
+
 export async function load({ params }: { params: { slug: string } }) {
 	try {
 		const post = await import(`../../../blogs/${params.slug}.md`)
