@@ -31,6 +31,7 @@ As a backend developer, I am familiar with the following technologies:
 As a curious person, I am also familiar with the following technologies:
 
 - **next.js** for frontend related stuff
+- this site is created using [**svelte**](https://svelte.dev/) and **sveltekit** ([ource code is here](https://github.com/marchellll/marchell.xyz))
 
 ## ✨ Portfolio
 
