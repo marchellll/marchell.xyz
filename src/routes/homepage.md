@@ -3,7 +3,7 @@ title: Marchell Imanuel
 published: true
 ---
 
-# 👋 Hi, I'am **Marchell** !
+# 👋 Hi, I'm **Marchell** !
 
 ## 🧑🏽‍💻 About Me
 
@@ -16,6 +16,9 @@ published: true
   - 🟢 [WhatsApp](https://wa.me/6285781147378)
   - 📧 [imanuel.marchell@gmail.com](mailto:imanuel.marchell@gmail.com)
   - 🔵 [Telegram](https://t.me/marchellll)
+- I love async remote work
+- I'm more of an individual contributor
+- Mentor >>> Manager
 
 ## 📚 My Skills
 

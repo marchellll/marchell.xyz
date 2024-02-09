@@ -5,7 +5,7 @@ This is my personal web, built with [SvelteKit](https://kit.svelte.dev). Using m
 ## Creating a new blog post
 
 Create a new file with new file format `YYYYMMDD_HHMMSS_post.md` in `src/posts` directory. And add frontmatter to the file.
-
+TODO: build a cli to create a new post.
 ```bash
 
 echo "---
