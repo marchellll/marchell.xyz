@@ -1,45 +1,42 @@
-# Marchell Personal Web
+# Portfolio Blog Starter
 
-This is my personal web, built with [SvelteKit](https://kit.svelte.dev). Using markdown to create the content. This force a simplicity approach to the content creation.
+This is a porfolio site template complete with a blog. Includes:
 
-## Creating a new blog post
+- MDX and Markdown support
+- Optimized for SEO (sitemap, robots, JSON-LD schema)
+- RSS Feed
+- Dynamic OG images
+- Syntax highlighting
+- Tailwind v4
+- Vercel Speed Insights / Web Analytics
+- Geist font
 
-Create a new file with new file format `YYYYMMDD_HHMMSS_post.md` in `src/posts` directory. And add frontmatter to the file.
-TODO: build a cli to create a new post.
+## Demo
+
+https://portfolio-blog-starter.vercel.app
+
+## How to Use
+
+You can choose from one of the following two methods to use this repository:
+
+### One-Click Deploy
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+
+### Clone and Deploy
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+
 ```bash
-
-echo "---
-title: Today's post
-description: Hehe.
-date: '$(date +%F)'
-categories:
-  - software-engineering
-  - backend
-published: true
----
-" >> src/blogs/"$(date +%Y%m%d_%H%M%S)_post.md"
+pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
 ```
 
-## Dependencies
-
-- [pnpm](https://pnpm.io/) for the package manager.
-- [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/) for the framework.
-
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Then, run Next.js in development mode:
 
 ```bash
-pnpm run dev
+pnpm dev
 ```
 
-## Building
-
-```sh
-pnpm run build && pnpm run preview
-```
-
-## Need to mention
-
-I followed this post to create thi web: https://joyofcode.xyz/sveltekit-markdown-blog
+Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
