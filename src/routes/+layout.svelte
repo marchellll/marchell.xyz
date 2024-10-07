@@ -38,6 +38,10 @@
 		padding-inline: var(--size-7);
 	}
 
+	article {
+		padding-block: var(--size-9);
+	}
+
 	main {
 		padding-block: var(--size-9);
 	}
