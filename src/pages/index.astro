@@ -1,0 +1,84 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import ContactIconBar from "../components/ContactIconBar.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section class="min-h-screen flex items-center justify-center">
+        <div>
+          <h1>Hello! 🧑🏽‍💻</h1>
+          <p>
+            I’m <span> Marchell Imanuel</span> a backend-focused software engineer,
+            designing server-side logic, managing databases, and ensuring smooth
+            performance between front-end and backend systems.
+          </p>
+
+          <p>
+            Connect with me: <span><ContactIconBar /></span>
+          </p>
+        </div>
+      </section>
+      <section class="min-h-screen flex items-center justify-center">
+        <div>
+          <h3>📚 Tech Stack I've been using:</h3>
+          &nbsp;
+          <h4>🍥 Back End</h4>
+          <p>
+            As a backend developer, I am familiar with the following
+            technologies:
+
+            <li>Node.js (8 Years)</li>
+            <li>Golang, Ruby, Java (3 Years)</li>
+            <li>
+              MySQL, PostgreSQL, MongoDB, ElasticSearch, Kafka, Google PubSub,
+              Redis
+            </li>
+            <li>Kubernetes, Docker, Google Cloud Platform, AWS</li>
+            <li>Grafana, Datadog, New Relic</li>
+          </p>
+          &nbsp;
+          <h4>🐣 Front End</h4>
+          As a curious person, I am also familiar with the following technologies:
+
+          <li>next.js for frontend related stuff</li>
+          <li>
+            this site built using <a href="https://astro.build/">Astro</a>, btw
+          </li>
+        </div>
+      </section>
+      &nbsp;
+      <section class="min-h-screen flex items-center justify-center">
+        <div>
+          <h3>📚 My Past Experiences</h3>
+
+          <li>
+            <a href="/project/20240208_172424_wagely"
+              >Senior Software Engineer (Backend) at wagely (2022 - now)</a
+            >
+          </li>
+          <li>
+            <a href="/project/20240208_172423_bukalapak"
+              >Software Engineer at Bukalapak (2018 - 2022)</a
+            >
+          </li>
+          <li>
+            <a href="/project/20240208_164317_jenius"
+              >Software Engineer at Jenius (2015 - 2018)</a
+            >
+          </li>
+        </div>
+      </section>
+    </main>
+    <Footer/>
+  </body>
+</html>
