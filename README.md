@@ -1,5 +1,7 @@
 # Marchell.xyz
 
+My personal website. Built using Astro
+
 Features:
 
 - ✅ Minimal styling (make it your own!)
@@ -38,8 +40,8 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
+| Command                    | Action                                           |
+| :------------------------- | :----------------------------------------------- |
 | `pnpm install`             | Installs dependencies                            |
 | `pnpm run dev`             | Starts local dev server at `localhost:4321`      |
 | `pnpm run build`           | Build your production site to `./dist/`          |
@@ -47,3 +49,19 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm run astro -- --help` | Get help using the Astro CLI                     |
 
+Creating a new blog post
+Create a new file with new file format YYYYMMDD_HHMMSS_post.md in src/posts directory. And add frontmatter to the file. TODO: build a cli to create a new post.
+
+```sh
+echo "---
+title: Today's post
+description: Hehe.
+pubDate: '$(date +%F)'
+categories:
+  - software-engineering
+  - backend
+published: true
+---
+" >> src/content/blog/"$(date +%Y%m%d_%H%M%S)_post.md"
+
+```

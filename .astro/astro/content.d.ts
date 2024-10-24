@@ -186,6 +186,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
+"20241024_174728_upwork_is_not_for_junior_dev.mdx": {
+	id: "20241024_174728_upwork_is_not_for_junior_dev.mdx";
+  slug: "20241024_174728_upwork_is_not_for_junior_dev";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
 };
 "project": {
 "20240208_164317_jenius.mdx": {

@@ -1,0 +1,41 @@
+---
+title: Upwork is not for junior devs
+description: My first day trying the platform
+pubDate: "2024-10-24"
+categories:
+  - software-engineering
+  - backend
+published: true
+---
+
+I've heard some good testimonies about [Upwork](https://www.upwork.com/nx/find-work/best-matches) in LinkedIn, so I try it.
+
+The first job matches was this. Can you find the problem?
+
+![Scary](/blog_assets/20241024_174728_upwork_is_not_for_junior_dev.md/scary.png)
+
+The problem is: it is too good to be true. 650$ just to fix `npm start`.
+
+But I try it anyways. I downloaded the zip file and open the project.
+
+The first thing that I look for is the `package.json`. I want to see the command.
+
+![Strange Commands](/blog_assets/20241024_174728_upwork_is_not_for_junior_dev.md/package.png)
+
+`npm start` will trigger `npm run config`, which will run `node src/optimize.js`
+
+Let's take a look inside `optimize.js`
+
+![wtf](/blog_assets/20241024_174728_upwork_is_not_for_junior_dev.md/bs.png)
+
+A bunch of bullshit. I've spend a good 20 minutes reading `https://github.com/testing-library/jest-dom`. Nothing related to this obfuscated file. Looking around the project, it is clear that this script will try to run a malicious code, most probably mining.
+
+Whatever this is, the intention is not good, So quickly flag this listing as a scam.
+
+---
+
+A junior dev or even an unsuspecting senior will easily fooled, I hope all devs in this platform aware of thes kind of scam and be vigilant.
+
+Today I learned what is the purpose of this VSCode prompt
+
+![prompt](/blog_assets/20241024_174728_upwork_is_not_for_junior_dev.md/1.png)
