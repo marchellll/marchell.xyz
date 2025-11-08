@@ -1,0 +1,70 @@
+---
+title: Collaborative Mermaid Editor
+description: I cannot find a good collaborative mermaid editor, so I built one.
+pubDate: '2025-11-07'
+categories:
+  - software-engineering
+  - backend
+  - frontend
+published: true
+---
+
+## The Problem
+
+Mermaid diagrams are fantastic for documentation, but the collaborative editing experience leaves much to be desired. Most editors are either:
+- Single-user only, requiring manual copy-pasting between team members
+- Expensive enterprise solutions that don't fit smaller teams or personal projects
+- Lacking real-time synchronization, making true collaboration impossible
+
+I needed something simple, fast, and truly collaborative—where multiple users could edit the same diagram simultaneously and see changes in real-time.
+
+So I did what any good developer would do: I built my own solution.
+
+
+## The Solution
+
+I built a [**Collaborative Mermaid Editor**](https://mermaid.marchell.xyz/)
+
+
+![mermaid](/blog_assets/20251107_230828_mermaid.md/ss.png)
+
+## Key Features
+
+### Real-Time Collaborative Editing
+
+The heart of the application is its real-time collaboration engine. Multiple users can work on the same diagram simultaneously, with changes synchronized instantly across all connected clients. No more waiting for someone to finish editing or dealing with merge conflicts.
+
+### Live Preview
+
+As you type your Mermaid syntax, the diagram renders in real-time. This immediate visual feedback helps catch syntax errors early and ensures your diagram looks exactly as intended before sharing it with your team.
+
+
+### Persistent Sessions
+
+Each diagram gets its own unique URL, making it easy to share with team members. Simply send the link, and collaborators can jump right in without any setup or authentication required.
+
+
+## Current Status
+
+The editor is **live and functional** at [https://mermaid.marchell.xyz/](https://mermaid.marchell.xyz/). It handles real-time collaboration, live preview, and SVG export. While there are still some rough edges and features I'd like to polish, it's already solving the problem I set out to address.
+
+## What's Next
+
+The roadmap includes:
+
+- Enhanced export options (PNG, PDF)
+- Diagram templates and examples
+- Syntax highlighting and autocomplete
+- Version history and undo/redo
+- Better mobile responsiveness
+- Performance optimizations
+
+## Try It Out
+
+If you've ever struggled with collaborative diagram editing, give it a spin. It's free, requires no sign-up, and you can start creating and sharing Mermaid diagrams with your team immediately.
+
+Visit [https://mermaid.marchell.xyz/](https://mermaid.marchell.xyz/) and let me know what you think!
+
+---
+
+*Have suggestions or found a bug? I'd love to hear your feedback. Your feedback is invaluable for making it better.*

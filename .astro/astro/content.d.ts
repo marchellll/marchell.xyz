@@ -193,6 +193,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
+"20251107_230828_mermaid.mdx": {
+	id: "20251107_230828_mermaid.mdx";
+  slug: "20251107_230828_mermaid";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
 };
 "project": {
 "20240208_164317_jenius.mdx": {

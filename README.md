@@ -50,7 +50,7 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run astro -- --help` | Get help using the Astro CLI                     |
 
 Creating a new blog post
-Create a new file with new file format YYYYMMDD_HHMMSS_post.md in src/posts directory. And add frontmatter to the file. TODO: build a cli to create a new post.
+Create a new file with new file format YYYYMMDD_HHMMSS_post.md in src/content/blog directory. And add frontmatter to the file. TODO: build a cli to create a new post.
 
 ```sh
 echo "---
